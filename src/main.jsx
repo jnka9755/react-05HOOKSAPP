@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { Padre } from './07-tarea-memo/Padre'
+import { TodoApp } from './08-useReducer/TodoApp'
 // import { CallbackHook } from './07-useCallback/CallbackHook'
 // import { MemorizeHook } from './06-memos/MemorizeHook'
 // import { Memorize } from './06-memos/Memorize'
@@ -13,9 +13,11 @@ import { Padre } from './07-tarea-memo/Padre'
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 // import { HooksApp } from './HooksApp'
 // import { CounterApp } from './01-useState/CounterApp'
+// import './08-useReducer/intro-reducer';
+// import { Padre } from './07-tarea-memo/Padre';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-    <Padre />
+    <TodoApp />
   // </React.StrictMode>,
 )
