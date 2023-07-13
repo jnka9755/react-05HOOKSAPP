@@ -5,6 +5,7 @@ export const TodoItem = ({ todo, onDeleteTodo, onTooggleTodo}) => {
       <span 
           className={`align-self-center ${ (todo.done) ? 'text-decoration-line-through': ''}`}
           onDoubleClick={() => onTooggleTodo(todo.id)}
+          aria-label="span"
       >{ todo.desc }</span>
       <button
           className="btn btn-danger"
